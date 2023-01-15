@@ -55,7 +55,7 @@ class UserService:
         user.name = data.get("name")
         return self.dao.update(user)
 
-    def delite(self, uid: int):
+    def delete(self, uid: int):
         """
         The function defines the method of the class .delete takes the record ID
         as a parameter, requests a record with the corresponding parameter,

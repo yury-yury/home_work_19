@@ -67,5 +67,5 @@ class UserView(Resource):
         a DELETE request at the address "/users/<int:uid>", implements the search and deletion
         of the user from the database, returns an empty string in the form of JSON.
         """
-        user_service.delite(uid)
+        user_service.delete(uid)
         return ''
